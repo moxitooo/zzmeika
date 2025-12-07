@@ -734,7 +734,7 @@ const server = http.createServer((req, res) => {
         return;
     }
 
-    let filePath = pathname === '/' ? 'public/verstka.html' : pathname;
+    let filePath = pathname === '/' ? 'verstka.html' : pathname;
     filePath = path.join(__dirname, filePath);
     
     fs.access(filePath, fs.constants.F_OK, (err) => {
