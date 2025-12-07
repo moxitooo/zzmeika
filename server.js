@@ -6,7 +6,7 @@ const WebSocket = require('ws');
 const sqlite3 = require('sqlite3').verbose();
 
 const hostname = '0.0.0.0';
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 // ==================== КОНФИГУРАЦИЯ ИГРЫ ====================
 const GAME_CONFIG = {
     MODES: {
