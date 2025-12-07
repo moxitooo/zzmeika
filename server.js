@@ -28,6 +28,10 @@ const GAME_CONFIG = {
         }
     }
 };
+server.listen(port, hostname, () => {
+  console.log(`Сервер ЗАПУЩЕН на порту ${port}`);
+  console.log(`Приложение доступно на порту: ${port}`);
+});
 
 // ==================== КЛАСС БАЗЫ ДАННЫХ SQLite ====================
 class Database {
